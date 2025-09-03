@@ -132,7 +132,7 @@ function createNetworkVisualization() {
     // Create canvas for network visualization
     const canvas = document.createElement('canvas');
     canvas.style.position = 'absolute';
-    canvas.style.top = '-140px';
+    canvas.style.top = '-60px';
     canvas.style.left = '-160px';
     canvas.style.width = '100%';
     canvas.style.height = '100%';
@@ -251,3 +251,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
